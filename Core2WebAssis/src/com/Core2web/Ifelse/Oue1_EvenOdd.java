@@ -1,6 +1,6 @@
 
 
-package com.Core2web;
+package com.Core2web.Ifelse;
 
 public class Oue1_EvenOdd {
 
