@@ -1,4 +1,4 @@
-package modapk;
+package Pratice_Core2web;
 
 public class armstrong_NO {
 
