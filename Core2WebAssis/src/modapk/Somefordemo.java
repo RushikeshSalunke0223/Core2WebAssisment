@@ -1,6 +1,6 @@
 package modapk;
 
-public class fordemo {
+public class Somefordemo {
 
 	public static void main(String[] args) {
 		int x = 25;
