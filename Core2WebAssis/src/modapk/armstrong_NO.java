@@ -11,7 +11,6 @@ public class armstrong_NO {
 			int rem = n % 10;
 			sum = sum + (rem * rem * rem);
 			n = n / 10;
-
 		}
 		if(temp==sum) {
 			System.out.println("aremstrong no");
