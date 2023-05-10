@@ -1,4 +1,4 @@
-package Pratice_Core2web;
+       package Pratice_Core2web;
 
 import java.util.Scanner;
 
@@ -6,6 +6,7 @@ public class breakstatement {
 
 	//this code is best optimization 
 	public static void main(String[] args) {
+		@SuppressWarnings("resource")
 		Scanner sc1 = new Scanner(System.in);
 		int n = sc1.nextInt();
 		int count = 0;

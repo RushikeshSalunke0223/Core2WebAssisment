@@ -16,8 +16,8 @@ public class prime_no {
 			}
 		}
 		if (sum == 2) {
-			//What is orime no?
-			//no.whoes factors are excatly two.this is known prime no
+			//What is prime no?
+			//no.whoes factors are exactly two.this is known prime no
 			System.out.println("prime");
 		} else {
 			System.out.println("non prime");

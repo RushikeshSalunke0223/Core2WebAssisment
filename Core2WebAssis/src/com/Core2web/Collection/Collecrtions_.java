@@ -15,6 +15,7 @@ public class Collecrtions_ {
 		System.out.println();
 		
 		
+		@SuppressWarnings("rawtypes")
 		List LL=Arrays.asList(str);
 		System.out.println(LL);
 	}
