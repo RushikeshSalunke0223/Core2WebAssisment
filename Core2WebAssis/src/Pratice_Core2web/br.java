@@ -27,7 +27,7 @@ public class br {
 		
 		System.out.println("Enter the jerno "+jerNO);
 		
-		System.out.println("Enter the Avg "+);
+		System.out.println("Enter the Avg "+Avg);
 	}
 
 }
