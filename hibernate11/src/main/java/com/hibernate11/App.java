@@ -8,10 +8,7 @@ import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
 
-/**
- * Hello world!
- *
- */
+
 public class App {
 	public static void main(String[] args) throws IOException {
 		System.out.println("Hello World!");
@@ -21,7 +18,7 @@ public class App {
 		SessionFactory factory = cfg.buildSessionFactory();
 
 		Student std = new Student();
-		std.setId(101);// always change id before run program.
+		std.setId(102);// always change id before run program.
 		std.setNameString("shubham beldar");
 		std.setCityString("Baramati");
 		

@@ -23,8 +23,11 @@ public class featchdemo {
 		System.out.println(student1);
 		
 		
-		Address add=session.load(Address.class, 1);
+		Address add=session.get(Address.class, 1);
 		System.out.println(add.getStreet()+" : "+add.getCity()+" : "+add.getAddeDate());
+		
+		Address add1=session.load(Address.class, 1);
+		System.out.println(add1.getStreet()+" : "+add1.getCity()+" : "+add1.getAddeDate());
 		
 		session.close();
 		factory.close();

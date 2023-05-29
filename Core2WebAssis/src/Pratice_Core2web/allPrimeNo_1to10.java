@@ -12,7 +12,7 @@ public class allPrimeNo_1to10 {
 		for (int i = 1; i <= 10; i++) {
 			if (x % i == 0) {
 				count++;
-				//this veriable storing the the itration count of num.
+				//this variable storing the the iteration count of numbers.
 			System.out.println(i+" ");
 			//here we print all the factors of given no 
 			//which prime or non prime
