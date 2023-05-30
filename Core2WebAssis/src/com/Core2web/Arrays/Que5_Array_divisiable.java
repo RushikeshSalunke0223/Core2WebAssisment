@@ -16,7 +16,7 @@ public class Que5_Array_divisiable {
 		for (int i = 0; i < arr.length; i++) {
 			arr[i] = Integer.parseInt(bReader.readLine());
 			if (arr[i] % 5== 0) {
-				System.out.print("this no is divisiable by 5: "+arr[i]+"\n");
+				System.out.print(+arr[i]+" <-- this no is by 5 \n");
 				sum ++;
 			}
 		}
