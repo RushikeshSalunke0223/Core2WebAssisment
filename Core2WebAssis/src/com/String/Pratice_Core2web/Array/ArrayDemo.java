@@ -12,7 +12,9 @@ public class ArrayDemo {
 			System.out.println(v);
 		}
 
-		double Arr1[] = { 10d, 20d, 30d };
+	int[] arr2;
+	int Arr1[] = { 10d, 20d, 30d };
+		arr2=new int[5];
 		System.out.println(Arr1);
 		for (double v : Arr1) {
 			System.out.println(v);
