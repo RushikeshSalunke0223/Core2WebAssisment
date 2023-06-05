@@ -18,7 +18,7 @@ public class Employee {
 	@Column(name="E_name")
 	private String name;
 	
-	@OneToOne
+	@OneToOne(mappedBy = "passport")
 	private Passport passport;
 	
 	public int getId() {
